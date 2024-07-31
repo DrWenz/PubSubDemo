@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubSubUi", "PubSubUi\PubSubUi.csproj", "{818C0EAE-A1EA-49D1-A463-EFEFAA7A8357}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubSubServer", "PubSubServer\PubSubServer.csproj", "{81284842-4B1E-4908-9E3C-4B3E8F9FF96C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{818C0EAE-A1EA-49D1-A463-EFEFAA7A8357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{818C0EAE-A1EA-49D1-A463-EFEFAA7A8357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{818C0EAE-A1EA-49D1-A463-EFEFAA7A8357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{818C0EAE-A1EA-49D1-A463-EFEFAA7A8357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81284842-4B1E-4908-9E3C-4B3E8F9FF96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81284842-4B1E-4908-9E3C-4B3E8F9FF96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81284842-4B1E-4908-9E3C-4B3E8F9FF96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81284842-4B1E-4908-9E3C-4B3E8F9FF96C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

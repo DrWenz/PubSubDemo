@@ -1,0 +1,25 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:PubSubUi.ViewModels"
+             xmlns:models="clr-namespace:PubSubUi.Models"
+             mc:Ignorable="d"
+             d:DesignWidth="800"
+             d:DesignHeight="450"
+             x:Class="PubSubUi.Views.MainView"
+             x:DataType="viewModels:MainViewModel">
+    <DataGrid ItemsSource="{Binding Nodes}">
+        <DataGrid.Columns>
+            <DataGridTextColumn Header="Node"
+                                x:DataType="models:NodeItem"
+                                Binding="{Binding Name }" />
+            <DataGridTextColumn Header="Value"
+                                x:DataType="models:NodeItem"
+                                Binding="{Binding Value }" />
+            <DataGridTextColumn Header="LastUpdated"
+                                x:DataType="models:NodeItem"
+                                Binding="{Binding LastUpdated, StringFormat={}{0:dd.MM.yyyy HH:mm:ss.fff}}" />
+        </DataGrid.Columns>
+    </DataGrid>
+</UserControl>
